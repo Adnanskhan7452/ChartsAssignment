@@ -1,0 +1,130 @@
+#valuelabel{
+  font-size: 20px;
+  color: #003F73;
+}
+
+.graph {
+ 
+  margin-left: 68px;
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  width: 40px;
+  background-color: white;
+  padding: 0px;
+  margin-top: 136px;
+
+}
+
+.bar-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #C2E3FF;
+  border: 0px solid #9990;
+  border-radius: 0px;
+}
+
+.bar-fill {
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  height: 0%;
+  background-color: #008Cff;
+  border-radius: 1px;
+}
+
+.graph-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #008CFF;
+}
+
+.label {
+
+  text-align: center;
+}
+
+.alert {
+  color: red;
+}
+
+
+
+.pie-chart {
+  background:
+    radial-gradient(circle closest-side,
+      transparent 66%,
+      white 0),
+    conic-gradient(#4e79a7 0,
+      #4e79a7 0%,
+      #C2E3FF 0,
+      #C2E3FF 100%);
+      
+      
+      position: relative;
+      width: 500px;
+      min-height: 336px;
+      margin-top: 70px;
+      outline: 0px solid #ccc;
+}
+.pie-chart label{
+  color: white;
+  position: relative;
+  margin: auto;
+  top: 36px;
+}
+
+.bar-chart2{
+  height: 200px;
+  width: 40px;
+  margin-top: 140px;
+  background-color: #C2E3FF;
+
+}
+.graphs{
+  display: flex;
+  margin-top: 30px;
+}
+
+#graph2label
+  {
+    margin-top: 187px;
+    margin-left: 229px;
+    color:white;
+}
+
+#graph3label{
+  margin-top: 352px;
+  margin-left: -29px;
+  font-size: 15px;
+  color: #008CFF;
+}
+
+#inputbuttons{
+  display: flex;
+  
+}
+#input-value{
+  margin-left: 70px;
+  margin-right: 20px;
+  background-color: #C2E3FF;
+  height: 30px;
+  width:220px;
+  border: none;
+}
+#max-value{
+  margin-left: 20px;
+  margin-right: 10px;
+  background-color: #C2E3FF;
+  height: 30px;
+  width:220px;
+  border: none;
+}
+.tags{
+  display: flex;
+  
+  color: #003F73;
+}
